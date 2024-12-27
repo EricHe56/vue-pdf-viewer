@@ -166,6 +166,7 @@ export default {
   },
   mounted() {
     this.zoom = this.settings.defaultZoom || 100
+    this.page = this.settings.defaultPage || 1
     this.catalogVisible = this.controls.includes(CATALOG)
   },
   methods: {
